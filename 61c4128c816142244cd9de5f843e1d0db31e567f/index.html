@@ -15,11 +15,36 @@
 
         loop.play();
     }
+var x = 0.0
 </script>
 
+<audio id="brokenaudio">
+<source src="./.broken/broken.ogg" type="audio/ogg">
+</audio>
+<script>
+var breaak = document.getElementById("brokenaudio"); 
+
+function broken() {
+breaak.play();
+}
+function brokeeen() {
+window.location='https://sharkboob.observer/ENTRANCE'
+}
+
+
+
+</script>
+<script>
+setTimeout(broken, 4000)
+setTimeout(brokeeen, 5800)
+setTimeout("Show()", 5500)
+function Show() 
+{
+document.getElementById("brokeen").style.display = "block"; 
+}
 </script>
 
-	<div id="loginbox" class="lightbox" >
+ <div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">
@@ -30,56 +55,6 @@
 		</div>
 	</div>
 
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
-
-	<script type="text/javascript">
-	"use strict";
-
-
-	function loadPage(pwd) {
-
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
-
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
-
-				window.location= url;
-
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
-
-
-				parent.location.hash= hash;
-
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
-			}
-		});
-	}
-
-
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
-
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
-
-	</script>
         <p style="text-align:center;font-size:69px;">Spin :)</p>
 		
 <p style="text-align:center;"><img src="./website_files/hai.gif" style="width:1000px;height:1000px;" class="center">
