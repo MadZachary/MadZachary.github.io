@@ -4,9 +4,19 @@
 
 
 <body>
-<audio loop autoplay>
-    <source src="./website_files/stockmarket.ogg" type="audio/ogg">
-</audio>
+<script src="loopify.js" type="text/javascript"></script>
+<script>
+    loopify("./website_files/stockmarket.ogg",ready);
+
+    function ready(err,loop){
+      if (err) {
+        console.warn(err);
+      }
+
+        loop.play();
+    }
+</script>
+
 
         <p style="text-align:center;font-size:69px;">Spin :)</p>
 		
