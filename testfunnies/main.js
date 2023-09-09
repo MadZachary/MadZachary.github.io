@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 				autoplayCover.id = "autoplay-cover"
 
 				autoplayCover.innerHTML =
-					`<img src="/images/ListenWell.gif" draggable="false">
+					`<img src="./images/ListenWell.gif" draggable="false">
 					<p style="color: #C1B492;">
 						Ｓｏｍｅｔｈｉｎｇ  ｈａｓ  ｏｂｆｕｓｃａｔｅｄ  ｔｈｅｉｒ  ｖｏｉｃｅｓ  ｏｎｃｅ  ｍｏｒｅ．．．<br>
 						<br>
