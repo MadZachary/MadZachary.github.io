@@ -1,0 +1,43 @@
+.white {
+background-color: #FFFFFF;
+}
+.spanner {
+width: 100%;
+height: 100%;
+margin: 20px;
+}
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1;
+}
+.jj {
+margin-right: 2%;
+margin-left: 2%;
+}
+.jj1 {
+margin-right: 2%;
+margin-left: 2%;
+}
+.jj2 {
+margin-right: 2%;
+margin-left: 2%;
+}
+body {
+width: 100%;
+height: 100%;
+margin: 0px;
+background-image: url("./website_files/fondoooooo-1.png");
+background-attachment: fixed;
+}
+html {
+width: 100%;
+height: 100%;
+margin: 0px;
+}
+.center {
+	width:100%;
+	text-align: center;
+	margin-bottom: 2%;
+}

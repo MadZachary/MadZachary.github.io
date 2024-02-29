@@ -9,15 +9,3 @@
   flex-direction: column;
   pointer-events: none;
 }
-
-
-
-
-#brokeen {
-width:100vw;
-  align-self: center;
-  
-  height: auto;
-display: none;
-z-index:1;
-}
